@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 :root {
-        --primary-color: #57534E;
-        --secondary color: #F3F4F6;
-    
+    --primary-color: #57534E;
+    --secondary-color: #F3F4F6;
+
 }
 
-body{
-    
-    font-family: 'Lato', 
-    sans-serif;
+body {
+
+    font-family: 'Lato',
+        sans-serif;
 }
 
 .line {
@@ -24,15 +24,21 @@ body{
 }
 
 .container-center {
-    max-width: 650px;
+    max-width: 600px;
     margin: auto;
+}
+
+.container-center-heading {
+    text-align: center;
+    
 }
 
 .pad {
     padding-bottom: 1.5rem;
 }
+
 .link-primary {
-   
+
     text-decoration: none;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
@@ -42,7 +48,7 @@ body{
 }
 
 .link-secondary {
-    
+
     text-decoration: none;
     font-size: 20px;
     border: 2px solid #57534E;
@@ -59,15 +65,17 @@ body{
     padding: 0rem 1rem;
 }
 
-.text{
-    padding: .5rem 1.5rem;
+.text {
+    padding: .5rem 1rem;
     font-size: 20px;
     font-weight: bold;
 }
+
 .navigation {
     background-color: var(--primary-color);
     color: white;
     border-top-left-radius: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .nav-pills {
@@ -78,12 +86,43 @@ body{
 .link {
     text-decoration: none;
     font-weight: 500;
-    padding: 0.5rem 0.5rem;
+    padding: 1rem 1rem;
     color: white;
 }
 
 .active-link {
     font-weight: bolder;
+}
+
+.head {
+    padding: 2rem;
+}
+
+.head .head-img {
+    max-width: 500px;
+    margin: auto;
+    display: block;
+}
+
+.section {
+    padding: 2rem;
+
     
 }
 
+.section h1 {
+    text-align: center;
+}
+
+
+.ow {
+    background-color: var(--secondary-color);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-bottom-right-radius: 1rem;
+    color: white;
+    text-align: center;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,12 @@
 
     <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
     <h1>component library!</h1>
-    <p>This p line command is use to show writing content in a paragraph where text can be <strong>wrap</strong> accordingly to the page.</p>
-    
+    <p>This p line command is use to show writing content in a paragraph where text can be <strong>wrap</strong>
+        accordingly to the page.</p>
+
     <hr>
 
     <h2>@typography</h2>
@@ -20,24 +23,26 @@
     <h2>this is second biggest heading</h2>
     <p>This this relatively normal text and wrap like a paragraph</p>
     <small>This (small) command is use for small text</small>
-     
+
     <hr>
 
     <h2>@container</h2>
 
     <h3>@fluid container</h3>
-    <div class="container">THis is fluid container and it will go till the specified width. This is going to be a fluid container. It will go full width of page. With some margin.</div>
+    <div class="container">THis is fluid container and it will go till the specified width. This is going to be a fluid
+        container. It will go full width of page. With some margin.</div>
 
-    <h3>@center container</h3>
-    <div class="container-center">This is centered container and it will go till the specified width. This is going to be a center container. It will go till a given width and center content.</div>
+    <h3 class="container-center-heading">@center container</h3>
+    <div class="container-center">This is centered container and it will go till the specified width. This is going to
+        be a center container. It will go till a given width and center content. </div>
 
     <hr>
 
-    <h2 >@links</h2>
-    <div class="pad"><a class="link-primary"  href="https://www.google.com/">Primary Link</a>
+    <h2>@links</h2>
+    <div class="pad"><a class="link-primary" href="https://www.google.com/">Primary Link</a>
         <a class="link-secondary" href="/">Secondary Link</a>
-     </div>
-    
+    </div>
+
     <hr>
 
     <h2>@lists</h2>
@@ -50,7 +55,7 @@
     </ul>
 
     <h3>Unordered Inline list</h3>
-    <ul >
+    <ul>
         <li class="list-inline">Inline Item One</li>
         <li class="list-inline">Inline Item Two</li>
         <li class="list-inline">Inline Item Three</li>
@@ -71,15 +76,15 @@
         <div class="text">IAmBrand</div>
         <ul class="nav-pills">
             <li class="list-inline ">
-            <a class="link active-link" href="/">Home</a>
+                <a class="link active-link" href="/">Home</a>
             </li>
 
             <li class="list-inline">
-            <a class="link" href="/">Product</a>
+                <a class="link" href="/">Product</a>
             </li>
-            
+
             <li class="list-inline">
-            <a class="link" href="/">About</a>
+                <a class="link" href="/">About</a>
             </li>
 
         </ul>
@@ -88,32 +93,38 @@
 
     <hr>
 
-    <header>
-        <img src="images/logo.svg"/>
-        <h1>heading inside header</h1>
+    <header class="head">
+        <img class="head-img" src="images/logo.svg" />
+        <h1 class="container-center-heading">heading inside header</h1>
     </header>
 
     <hr>
 
     <h2>@section</h2>
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background</p>
+    <section class="section">
+        <div class="container-center">
+            <h1>white section</h1>
+            <p>This will have white background. A section is used to separate parts of pages. In marketing websites you would have seen a header followed by sections of features, team, pricing, contact info etc.</p>
+        </div>
+
     </section>
-    <section>
-        <h3>offwhite section</h3>
-        <p>This will have gray background</p>
+    <section class="section ow">
+        <div class="container-center">
+            <h1>offwhite section</h1>
+            <p >This will have gray background. A section is used to separate parts of pages. In marketing websites you would have seen a header followed by sections of features, team, pricing, contact info etc.</p>
+        </div>
+        
     </section>
 
     <hr>
 
     <h2>@footer</h2>
-    <footer>
+    <footer class="footer">
         <div>some small heading inside footer</div>
-        <ul>
-            <li>social one</li>
-            <li>social two</li>
-            <li>social three</li>
+        <ul >
+            <li class="list-inline"><a class="link" href="/">socialone</a></li>
+            <li class="list-inline"><a class="link" href="/">socialtwo</a></li>
+            <li class="list-inline"><a class="link" href="/">socialthree</a></li>
         </ul>
 
     </footer>
