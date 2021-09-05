@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+        --primary-color: #57534E;
+        --secondary color: #F3F4F6;
+    
+}
+
+body{
+    
+    font-family: 'Lato', 
+    sans-serif;
+}
+
+.line {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.container {
+    /* padding-left: 2rem; */
+    padding: 0.5rem 2rem;
+
+}
+
+.container-center {
+    max-width: 650px;
+    margin: auto;
+}
+
+.pad {
+    padding-bottom: 1.5rem;
+}
+.link-primary {
+   
+    text-decoration: none;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 20px;
+    padding: 0.5rem 0.5rem;
+}
+
+.link-secondary {
+    
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #57534E;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.text{
+    padding: .5rem 1.5rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    border-top-left-radius: 1rem;
+}
+
+.nav-pills {
+    text-align: right;
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 0.5rem;
+    color: white;
+}
+
+.active-link {
+    font-weight: bolder;
+    
+}
+

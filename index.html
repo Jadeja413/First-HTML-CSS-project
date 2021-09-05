@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h1> Hi! this is kuldeep's component library!</h1>
-    <p>This p line command is use to show writing content in a aparagraph where text can be wrap accordingly to the page.</p>
-
+    <h1>component library!</h1>
+    <p>This p line command is use to show writing content in a paragraph where text can be <strong>wrap</strong> accordingly to the page.</p>
+    
     <hr>
 
     <h2>@typography</h2>
@@ -23,38 +25,39 @@
 
     <h2>@container</h2>
 
-    <h3>fluid container</h3>
-    <div>THis is fluid container and it will go till the specified width</div>
+    <h3>@fluid container</h3>
+    <div class="container">THis is fluid container and it will go till the specified width. This is going to be a fluid container. It will go full width of page. With some margin.</div>
 
-    <h3>center container</h3>
-    <div>This is centered container and it will go till the specified width</div>
+    <h3>@center container</h3>
+    <div class="container-center">This is centered container and it will go till the specified width. This is going to be a center container. It will go till a given width and center content.</div>
 
     <hr>
 
-    <h2>@links</h2>
-    <a href="https://www.google.com/">Primary link</a>
-    <a href="/">secondary link</a>
-
+    <h2 >@links</h2>
+    <div class="pad"><a class="link-primary"  href="https://www.google.com/">Primary Link</a>
+        <a class="link-secondary" href="/">Secondary Link</a>
+     </div>
+    
     <hr>
 
     <h2>@lists</h2>
 
     <h3>Unordered list</h3>
-    <ul>
+    <ul class="list-non-bullet">
         <li>Item one</li>
         <li>Item Two</li>
         <li>Item Three</li>
     </ul>
 
     <h3>Unordered Inline list</h3>
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+    <ul >
+        <li class="list-inline">Inline Item One</li>
+        <li class="list-inline">Inline Item Two</li>
+        <li class="list-inline">Inline Item Three</li>
     </ul>
 
     <h3>reverse ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>milk</li>
         <li>egg</li>
         <li>rice</li>
@@ -64,19 +67,19 @@
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>IAmBrand</div>
-        <ul>
-            <li>
-            <a href="/">Home</a>
+    <nav class="navigation">
+        <div class="text">IAmBrand</div>
+        <ul class="nav-pills">
+            <li class="list-inline ">
+            <a class="link active-link" href="/">Home</a>
             </li>
 
-            <li>
-            <a href="/">Product</a>
+            <li class="list-inline">
+            <a class="link" href="/">Product</a>
             </li>
             
-            <li>
-            <a href="/">About</a>
+            <li class="list-inline">
+            <a class="link" href="/">About</a>
             </li>
 
         </ul>
@@ -86,7 +89,7 @@
     <hr>
 
     <header>
-        <img src="images/pic.svg"/>
+        <img src="images/logo.svg"/>
         <h1>heading inside header</h1>
     </header>
 
